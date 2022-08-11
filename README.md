@@ -12,10 +12,10 @@ Created a secure File Sharing System where the multithreaded server listens for 
 The steps are the same for running the files on your local machine except that the files to be run on your local machine are placed in the "Run_on_local" folder. The differences between the two sets of files are as follows :  
   
 In the python files (peerA.py, peerB.py, peerC.py) of Run_on_local :  
-The host ip is retrieved using socket.gethostbyname() function  
+* The host ip is retrieved using "socket.gethostbyname()" function  
   
 In the python files (peerA.py, peerB.py, peerC.py) placed outside Run_on local which are to be run on remote raspberry pis :  
-The host ip is explicity mentioned as "10.35.70.9" which had to be done so that a client program running on one raspberry pi can connect to another raspberry pi running a server program  
+* The host ip is explicity mentioned as "10.35.70.9" which had to be done so that a client program running on one raspberry pi can connect to another raspberry pi running a server program  
   
 ### Steps  
 1. Install tqdm using the command :   
