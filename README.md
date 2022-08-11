@@ -1,4 +1,4 @@
-# Generalised File Sharing
+# File Sharing System
 Created a secure File Sharing System where the multithreaded server listens for requests from multiple clients and sends the requested files.
 
 ## Implementation
